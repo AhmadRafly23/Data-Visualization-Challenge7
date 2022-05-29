@@ -1,0 +1,68 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "name": "Inova",
+      "category": "small",
+      "price": 5000000,
+      "status": false,
+      "image": "https://discoveryourindonesia.com/wp-content/uploads/2016/07/Inova-Car-Rental.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Mitsubisi",
+      "category": "large",
+      "price": 8000000,
+      "status": true,
+      "image": "https://discoveryourindonesia.com/wp-content/uploads/2016/07/Inova-Car-Rental.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Fortuner",
+      "category": "small",
+      "price": 5000000,
+      "status": false,
+      "image": "https://discoveryourindonesia.com/wp-content/uploads/2016/07/Inova-Car-Rental.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Brio",
+      "category": "medium",
+      "price": 6000000,
+      "status": true,
+      "image": "https://discoveryourindonesia.com/wp-content/uploads/2016/07/Inova-Car-Rental.jpg"
+    },
+    {
+      "id": 1,
+      "name": "Inova",
+      "category": "small",
+      "price": 5000000,
+      "status": false,
+      "image": "https://discoveryourindonesia.com/wp-content/uploads/2016/07/Inova-Car-Rental.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Mitsubisi",
+      "category": "large",
+      "price": 8000000,
+      "status": true,
+      "image": "https://discoveryourindonesia.com/wp-content/uploads/2016/07/Inova-Car-Rental.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Fortuner",
+      "category": "small",
+      "price": 5000000,
+      "status": false,
+      "image": "https://discoveryourindonesia.com/wp-content/uploads/2016/07/Inova-Car-Rental.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Brio",
+      "category": "medium",
+      "price": 6000000,
+      "status": true,
+      "image": "https://discoveryourindonesia.com/wp-content/uploads/2016/07/Inova-Car-Rental.jpg"
+    }
+  ]
+}

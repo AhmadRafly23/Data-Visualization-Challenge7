@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import ContentAdmin from "../components/ContentAdmin";
+import ContentNewCar from "../components/ContentNewCar";
 import Navbar from "../components/Navbar";
 import SidebarBlue from "../components/SidebarBlue";
 
-function PageAdmin() {
+function PageNewCar() {
   const [sidebar, setSidebar] = useState(true);
 
   function showSidebar() {
@@ -15,10 +15,10 @@ function PageAdmin() {
       <div className="row gx-0">
         <SidebarBlue />
         <Navbar showSidebar={showSidebar} />
-        <ContentAdmin sidebar={sidebar} />
+        <ContentNewCar sidebar={sidebar} />
       </div>
     </>
   );
 }
 
-export default PageAdmin;
+export default PageNewCar;
