@@ -1,11 +1,27 @@
 import React, { useState } from "react";
 import upload from "../images/fi_upload.png";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
+import { toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function TabelNewCar() {
+  const navigate = useNavigate();
   const [nama, setNama] = useState(null);
   const [harga, setHarga] = useState(null);
   const [selectedFile, setSelectedFile] = useState(null);
+
+  const notify = () =>
+    toast.success("Data Berhasil Disimpan", {
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "colored",
+    });
 
   function changeName(e) {
     setNama(e.target.value);
@@ -25,8 +41,9 @@ function TabelNewCar() {
 
     axios
       .post("https://rent-cars-api.herokuapp.com/admin/car", formData)
-      .then((res) => {
-        alert("File Upload success");
+      .then(() => {
+        navigate("/pagecars");
+        notify();
       })
       .catch((err) => alert("File Upload Error"));
   };
